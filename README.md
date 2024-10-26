@@ -1,4 +1,4 @@
-![동서울포스터_박병준-page-001](https://github.com/user-attachments/assets/911b094c-99e2-4371-bf5d-c14713e2a462)# DU Chatbot PI
+# DU Chatbot PI
 
 ## 만들게 된 계기
  현재 동서울대학교에도 chatbot이 있지만, database 기반의 한정적인 답변만 주는 chatbot이다. 이러한 문제점을 인식하고, 자연어 처리에 대한 공부를 바탕으로 더욱 업그레이드된, LLM을 사용한 chatbot을 만들 수 있을 것이라고 생각했다. 
@@ -9,7 +9,9 @@
 
  ## Hallucination과 해결방안
   decoder 모델의 가장 큰 문제점은 Hallucination이다. Hallucination이란 decoder 기반의 LLM이 하는 거짓말이라고 생각하면 쉽다. 이 모델은 지금까지의 query로 다음 단어를 예측하기 때문에 답변에 대해서 옳고 그름을 판단하지 못한다. 이러한 LLM의 hallucination을 보완하기 위해 model을 특정 task로 fine tuning하는 PEFT기법(QLoRA)과 RAG 기법을 사용했다. 
-![동서울포스터_박병준-page-001](https://github.com/user-attachments/assets/098ce8e2-2bdf-4165-975e-ed1f92ce0c77)
+
+  아래는 캡스톤디자인에서 사용했던 포스터이다.
+<img src="https://github.com/user-attachments/assets/098ce8e2-2bdf-4165-975e-ed1f92ce0c77" width="200" height="400"/>
 ## YouTube 튜토리얼
 
 
