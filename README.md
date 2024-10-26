@@ -3,7 +3,7 @@
 
 ## 만들게 된 계기
  현재 동서울대학교에도 chatbot이 있지만, database 기반의 한정적인 답변만 주는 chatbot이다. 이러한 문제점을 인식하고, 자연어 처리에 대한 공부를 바탕으로 더욱 업그레이드된, LLM을 사용한 chatbot을 만들 수 있을 것이라고 생각했다. 
-(https://dacon.io/competitions/official/236295/overview/description/)  
+([동서울대학교 홈페이지](https://www.du.ac.kr/main.do))  
 
 
 ## 무엇이 다른가요?
